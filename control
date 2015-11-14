@@ -1,0 +1,9 @@
+Package: com.gviridis.cate
+Name: Cate
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Replace status bar carrier with date.
+Maintainer: gviridis
+Author: gviridis
+Section: Tweaks
