@@ -15,5 +15,9 @@
 	return nowString;
 }
 
-%end
+- (void)_updateTimeItems {
+	%orig;
+	[self performSelector:@selector(_updateServiceItem)];
+}
 
+%end
